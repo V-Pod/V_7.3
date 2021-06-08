@@ -261,7 +261,15 @@ header a {
     position: absolute;
     top: 80px;
     left: 40px;
+    transition: 3s;
+    z-index: 1;
 }
+
+.hero-section:hover .flight1{
+    transform: rotate(205deg);
+    top: 120px;
+    left: 2200px;
+} 
 
 .flight2{
     color: #ff2f96;
@@ -271,7 +279,16 @@ header a {
     position: absolute;
     top: 250px;
     left: 180px;
+    transition: 2s;
+    z-index: 1;
 }
+
+
+.hero-section:hover .flight2{
+    transform: rotate(205deg);
+    top: 120px;
+    left: 2200px;
+} 
 
 .flight3{
     color: #ff2f96;
@@ -281,7 +298,16 @@ header a {
     position: absolute;
     top: 50px;
     left: 780px;
+    transition: 1s;
+    z-index: 1;
 }
+
+
+.hero-section:hover .flight3{
+    transform: rotate(205deg);
+    top: 120px;
+    left: 2200px;
+} 
 
 .flight4{
     color: #ff2f96;
@@ -291,7 +317,16 @@ header a {
     position: absolute;
     top: 500px;
     left: 680px;
+    transition: 2s;
+    z-index: 1;
 }
+
+
+.hero-section:hover .flight4{
+    transform: rotate(205deg);
+    top: 120px;
+    left: 2200px;
+} 
 
 .flight5{
     color: #ff2f96;
@@ -301,7 +336,16 @@ header a {
     position: absolute;
     top: 440px;
     left: 250px;
+    transition: 3s;
+    z-index: 1;
 }
+
+
+.hero-section:hover .flight5{
+    transform: rotate(205deg);
+    top: 120px;
+    left: 2200px;
+} 
 
 .asd{
     background-image: url(img/background.png);
@@ -311,6 +355,7 @@ header a {
     width: 730px;
     display: flex;
     justify-content: flex-start;
+    z-index: 3;
 }
 
 .about{
@@ -328,6 +373,7 @@ header a {
     width: 435px;
     height: 650px;
     margin-left: 80px;
+    z-index: 2;
     }
 
 .name-under {
